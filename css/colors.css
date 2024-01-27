@@ -4,7 +4,7 @@
     --c-pl-1: #165280;
     --c-pl-2: #114470;
     --c-pl-3: #0b355f;
-    --c-pl-4: #06274f;
+    --c-pl-4: #0d2e57;
     --c-pl-5: #00183e;
     --c-pl-6: #000b1d;
     --c-pl-7: #000610;
@@ -14,5 +14,348 @@
 
     /* Colores brillantes */
     --c-l-0: #fcfdfd;
-    
+
+    /*
+    ====================
+    ==COLORES DE TIPOS==
+    ====================
+    */
+    --Acero: #60a2b9;
+    --Agua: #2481ef;
+    --Bicho: #92a212;
+    --Dragon: #4f60e2;
+    --Electrico: #fac100;
+    --Fantasma: #713f71;
+    --Fuego: #e72324;
+    --Hada: #ef71ef;
+    --Hielo: #3dd9ff;
+    --Lucha: #ff8100;
+    --Normal: #a0a2a0;
+    --Planta: #3ca123;
+    --Psiquico: #ef3f7a;
+    --Roca: #b0ab82;
+    --Siniestro: #b0ab82;
+    --Tierra: #92501b;
+    --Veneno: #923fcc;
+    --Volador: #82baef;
+
+    /*
+    ===================
+    ==GRADIANT COLORS==
+    ===================
+    */
+    /* Gradiant Yellow */
+    --yellow-01: #ffffe6;	/* -90 */
+    --yellow-02: #ffffcc;	/* -80 */
+    --yellow-03: #ffffb3;	/* -70 */
+    --yellow-04: #ffff99;	/* -60 */
+    --yellow-05: #ffff80;	/* -50 */
+    --yellow-06: #ffff66;	/* -40 */
+    --yellow-07: #ffff4d;	/* -30 */
+    --yellow-08: #ffff33;	/* -20 */
+    --yellow-09: #ffff1a;	/* -10 */
+    --yellow-10: #ffff00;	/* 000 */
+    --yellow-11: #e6e600;	/* +10 */
+    --yellow-12: #cccc00;	/* +20 */
+    --yellow-13: #b3b300;	/* +30 */
+    --yellow-14: #999900;	/* +40 */
+    --yellow-15: #808000;	/* +50 */
+    --yellow-16: #666600;	/* +60 */
+    --yellow-17: #4c4c00;	/* +70 */
+    --yellow-18: #333300;	/* +80 */
+    --yellow-19: #191900;	/* +90 */
+
+    /* Gradiant Orange */
+    --orange-01: #fff6e6;	/* -90 */
+    --orange-02: #ffedcc;	/* -80 */
+    --orange-03: #ffe4b3;	/* -70 */
+    --orange-04: #ffdb99;	/* -60 */
+    --orange-05: #ffd280;	/* -50 */
+    --orange-06: #ffc966;	/* -40 */
+    --orange-07: #ffc04d;	/* -30 */
+    --orange-08: #ffb733;	/* -20 */
+    --orange-09: #ffae1a;	/* -10 */
+    --orange-10: #ffa500;	/* 000 */
+    --orange-11: #e69500;	/* +10 */
+    --orange-12: #cc8400;	/* +20 */
+    --orange-13: #b37300;	/* +30 */
+    --orange-14: #996300;	/* +40 */
+    --orange-15: #805300;	/* +50 */
+    --orange-16: #664200;	/* +60 */
+    --orange-17: #4c3100;	/* +70 */
+    --orange-18: #332100;	/* +80 */
+    --orange-19: #191000;	/* +90 */
+
+    /* Gradiant Red */
+    --red-01: #ffe6e6;	/* -90 */
+    --red-02: #ffcccc;	/* -80 */
+    --red-03: #ffb3b3;	/* -70 */
+    --red-04: #ff9999;	/* -60 */
+    --red-05: #ff8080;	/* -50 */
+    --red-06: #ff6666;	/* -40 */
+    --red-07: #ff4d4d;	/* -30 */
+    --red-08: #ff3333;	/* -20 */
+    --red-09: #ff1a1a;	/* -10 */
+    --red-10: #ff0000;	/* 000 */
+    --red-11: #e60000;	/* +10 */
+    --red-12: #cc0000;	/* +20 */
+    --red-13: #b30000;	/* +30 */
+    --red-14: #990000;	/* +40 */
+    --red-15: #800000;	/* +50 */
+    --red-16: #660000;	/* +60 */
+    --red-17: #4c0000;	/* +70 */
+    --red-18: #330000;	/* +80 */
+    --red-19: #190000;	/* +90 */
+
+    /* Gradiant Purple */
+    --purple-01: #f2e6f2;	/* -90 */
+    --purple-02: #e6cce6;	/* -80 */
+    --purple-03: #d9b3d9;	/* -70 */
+    --purple-04: #cc99cc;	/* -60 */
+    --purple-05: #c080c0;	/* -50 */
+    --purple-06: #b366b3;	/* -40 */
+    --purple-07: #a64da6;	/* -30 */
+    --purple-08: #993399;	/* -20 */
+    --purple-09: #8d1a8d;	/* -10 */
+    --purple-10: #800080;	/* 000 */
+    --purple-11: #730073;	/* +10 */
+    --purple-12: #660066;	/* +20 */
+    --purple-13: #5a005a;	/* +30 */
+    --purple-14: #4d004d;	/* +40 */
+    --purple-15: #400040;	/* +50 */
+    --purple-16: #330033;	/* +60 */
+    --purple-17: #260026;	/* +70 */
+    --purple-18: #1a001a;	/* +80 */
+    --purple-19: #0d000d;	/* +90 */
+
+    /* Gradiant Blue */
+    --blue-01: #e6e6ff;	/* -90 */
+    --blue-02: #ccccff;	/* -80 */
+    --blue-03: #b3b3ff;	/* -70 */
+    --blue-04: #9999ff;	/* -60 */
+    --blue-05: #8080ff;	/* -50 */
+    --blue-06: #6666ff;	/* -40 */
+    --blue-07: #4d4dff;	/* -30 */
+    --blue-08: #3333ff;	/* -20 */
+    --blue-09: #1a1aff;	/* -10 */
+    --blue-10: #0000ff;	/* 000 */
+    --blue-11: #0000e6;	/* +10 */
+    --blue-12: #0000cc;	/* +20 */
+    --blue-13: #0000b3;	/* +30 */
+    --blue-14: #000099;	/* +40 */
+    --blue-15: #000080;	/* +50 */
+    --blue-16: #000066;	/* +60 */
+    --blue-17: #00004c;	/* +70 */
+    --blue-18: #000033;	/* +80 */
+    --blue-19: #000019;	/* +90 */
+
+    /* Gradiant Green */
+    --green-01: #e6f2e6;	/* -90 */
+    --green-02: #cce6cc;	/* -80 */
+    --green-03: #b3d9b3;	/* -70 */
+    --green-04: #99cc99;	/* -60 */
+    --green-05: #80c080;	/* -50 */
+    --green-06: #66b366;	/* -40 */
+    --green-07: #4da64d;	/* -30 */
+    --green-08: #339933;	/* -20 */
+    --green-09: #1a8d1a;	/* -10 */
+    --green-10: #008000;	/* 000 */
+    --green-11: #007300;	/* +10 */
+    --green-12: #006600;	/* +20 */
+    --green-13: #005a00;	/* +30 */
+    --green-14: #004d00;	/* +40 */
+    --green-15: #004000;	/* +50 */
+    --green-16: #003300;	/* +60 */
+    --green-17: #002600;	/* +70 */
+    --green-18: #001a00;	/* +80 */
+    --green-19: #000d00;	/* +90 */
+
+    /*  Gradiant Gray */
+    --grray-01: #f2f2f2;	/* -90 */
+    --grray-02: #e6e6e6;	/* -80 */
+    --grray-03: #d9d9d9;	/* -70 */
+    --grray-04: #cccccc;	/* -60 */
+    --grray-05: #c0c0c0;	/* -50 */
+    --grray-06: #b3b3b3;	/* -40 */
+    --grray-07: #a6a6a6;	/* -30 */
+    --grray-08: #999999;	/* -20 */
+    --grray-09: #8d8d8d;	/* -10 */
+    --grray-10: #808080;	/* 000 */
+    --grray-11: #737373;	/* +10 */
+    --grray-12: #666666;	/* +20 */
+    --grray-13: #5a5a5a;	/* +30 */
+    --grray-14: #4d4d4d;	/* +40 */
+    --grray-15: #404040;	/* +50 */
+    --grray-16: #333333;	/* +60 */
+    --grray-17: #262626;	/* +70 */
+    --grray-18: #1a1a1a;	/* +80 */
+    --grray-19: #0d0d0d;	/* +90 */
+
+    /* 
+    ========================
+    ==COLORES CON PALABRAS==
+    ========================
+    */
+    /* Tonos Rojo */
+    --IndianRed: #CD5C5C;
+    --LightCoral: #F08080;
+    --Salmon: #FA8072;
+    --DarkSalmon: #E9967A;
+    --LightSalmon: #FFA07A;
+    --Crimson: #DC143C;
+    --Red: #FF0000;
+    --FireBrick: #B22222;
+    --DarkRed: #8B0000;
+
+    /* Tonos Rosa */
+    --Pink: #FFC0CB;
+    --LightPink: #FFB6C1;
+    --HotPink: #FF69B4;
+    --DeepPink: #FF1493;
+    --MediumVioletRed: #C71585;
+    --PaleVioletRed: #DB7093;
+
+    /* Tonos Naranja */
+    --LightSalmon: #FFA07A;
+    --Coral: #FF7F50;
+    --Tomato: #FF6347;
+    --OrangeRed: #FF4500;
+    --DarkOrange: #FF8C00;
+    --Orange: #FFA500;
+
+    /* Tonos Amarillo */
+    --Gold: #FFD700;
+    --Yellow: #FFFF00;
+    --LightYellow: #FFFFE0;
+    --LemonChiffon: #FFFACD;
+    --LightGoldenrodYellow: #FAFAD2;
+    --PapayaWhip: #FFEFD5;
+    --Moccasin: #FFE4B5;
+    --PeachPuff: #FFDAB9;
+    --PaleGoldenrod: #EEE8AA;
+    --Khaki: #F0E68C;
+    --DarkKhaki: #BDB76B;
+
+    /* Tonos Púrpura */
+    --Lavender: #E6E6FA;
+    --Thistle: #D8BFD8;
+    --Plum: #DDA0DD;
+    --Violet: #EE82EE;
+    --Orchid: #DA70D6;
+    --Fuchsia: #FF00FF;
+    --Magenta: #FF00FF;
+    --MediumOrchid: #BA55D3;
+    --MediumPurple: #9370DB;
+    --RebeccaPurple: #663399;
+    --BlueViolet: #8A2BE2;
+    --DarkViolet: #9400D3;
+    --DarkOrchid: #9932CC;
+    --DarkMagenta: #8B008B;
+    --Purple: #800080;
+    --Indigo: #4B0082;
+    --SlateBlue: #6A5ACD;
+    --DarkSlateBlue: #483D8B;
+    --MediumSlateBlue: #7B68EE;
+
+    /* Tonos Verde */
+    --GreenYellow: #ADFF2F;
+    --Chartreuse: #7FFF00;
+    --LawnGreen: #7CFC00;
+    --Lime: #00FF00;
+    --LimeGreen: #32CD32;
+    --PaleGreen: #98FB98;
+    --LightGreen: #90EE90;
+    --MediumSpringGreen: #00FA9A;
+    --SpringGreen: #00FF7F;
+    --MediumSeaGreen: #3CB371;
+    --SeaGreen: #2E8B57;
+    --ForestGreen: #228B22;
+    --Green: #008000;
+    --DarkGreen: #006400;
+    --YellowGreen: #9ACD32;
+    --OliveDrab: #6B8E23;
+    --Olive: #808000;
+    --DarkOliveGreen: #556B2F;
+    --MediumAquamarine: #66CDAA;
+    --DarkSeaGreen: #8FBC8B;
+    --LightSeaGreen: #20B2AA;
+    --DarkCyan: #008B8B;
+    --Teal: #008080;
+
+    /* Tonos Azul */
+    --Aqua: #00FFFF;
+    --Cyan: #00FFFF;
+    --LightCyan: #E0FFFF;
+    --PaleTurquoise: #AFEEEE;
+    --Aquamarine: #7FFFD4;
+    --Turquoise: #40E0D0;
+    --MediumTurquoise: #48D1CC;
+    --DarkTurquoise: #00CED1;
+    --CadetBlue: #5F9EA0;
+    --SteelBlue: #4682B4;
+    --LightSteelBlue: #B0C4DE;
+    --PowderBlue: #B0E0E6;
+    --LightBlue: #ADD8E6;
+    --SkyBlue: #87CEEB;
+    --LightSkyBlue: #87CEFA;
+    --DeepSkyBlue: #00BFFF;
+    --DodgerBlue: #1E90FF;
+    --CornflowerBlue: #6495ED;
+    --MediumSlateBlue: #7B68EE;
+    --RoyalBlue: #4169E1;
+    --Blue: #0000FF;
+    --MediumBlue: #0000CD;
+    --DarkBlue: #00008B;
+    --Navy: #000080;
+    --MidnightBlue: #191970;
+
+    /* Tonos Marrón */
+    --Cornsilk: #FFF8DC;
+    --BlanchedAlmond: #FFEBCD;
+    --Bisque: #FFE4C4;
+    --NavajoWhite: #FFDEAD;
+    --Wheat: #F5DEB3;
+    --BurlyWood: #DEB887;
+    --Tan: #D2B48C;
+    --RosyBrown: #BC8F8F;
+    --SandyBrown: #F4A460;
+    --Goldenrod: #DAA520;
+    --DarkGoldenrod: #B8860B;
+    --Peru: #CD853F;
+    --Chocolate: #D2691E;
+    --SaddleBrown: #8B4513;
+    --Sienna: #A0522D;
+    --Brown: #A52A2A;
+    --Maroon: #800000;
+
+    /* Tonos Blanco */
+    --White: #FFFFFF;
+    --Snow: #FFFAFA;
+    --HoneyDew: #F0FFF0;
+    --MintCream: #F5FFFA;
+    --Azure: #F0FFFF;
+    --AliceBlue: #F0F8FF;
+    --GhostWhite: #F8F8FF;
+    --WhiteSmoke: #F5F5F5;
+    --SeaShell: #FFF5EE;
+    --Beige: #F5F5DC;
+    --OldLace: #FDF5E6;
+    --FloralWhite: #FFFAF0;
+    --Ivory: #FFFFF0;
+    --AntiqueWhite: #FAEBD7;
+    --Linen: #FAF0E6;
+    --LavenderBlush: #FFF0F5;
+    --MistyRose: #FFE4E1;
+
+    /* Tonos Gris */
+    --Gainsboro: #DCDCDC;
+    --LightGray: #D3D3D3;
+    --Silver: #C0C0C0;
+    --DarkGray: #A9A9A9;
+    --Gray: #808080;
+    --DimGray: #696969;
+    --LightSlateGray: #778899;
+    --SlateGray: #708090;
+    --DarkSlateGray: #2F4F4F;
+    --Black: #000000;
 }
